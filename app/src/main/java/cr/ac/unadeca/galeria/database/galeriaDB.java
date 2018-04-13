@@ -1,0 +1,12 @@
+package cr.ac.unadeca.galeria.database;
+
+import com.raizlabs.android.dbflow.annotation.Database;
+
+/**
+ * Created by WiltonTuckerHart on 26/3/2018.
+ */
+@Database(name = galeriaDB.db_name, version = galeriaDB.version)
+public class galeriaDB {
+    public static final String db_name = "Galeria";
+    public static final int version = 1;
+}
